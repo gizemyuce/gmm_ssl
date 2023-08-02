@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/alexandrutifrea/Projects/SSL_lower_bound/gmm_ssl/script_ssl_comparison.py", line 57, in <module>
+    c1, c2 = parse_mnist_name(dataset_name)
+  File "/Users/alexandrutifrea/Projects/SSL_lower_bound/gmm_ssl/utils_ssl.py", line 246, in parse_mnist_name
+    d, classes = dataset_name.split("_")
+ValueError: not enough values to unpack (expected 2, got 1)

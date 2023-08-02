@@ -14,6 +14,10 @@ import pickle
 from sklearn.semi_supervised import LabelPropagation
 from sklearn.model_selection import PredefinedSplit, GridSearchCV
 
+# GLOBAL_SOLVER = "saga"
+GLOBAL_SOLVER = "lbfgs"
+GLOBAL_MAX_ITER = 100
+# GLOBAL_MAX_ITER = 1000
 
 
 def plot(x_1_labeled, x_2_labeled, x_unlabeled, W_OPT= np.ones(2)/np.sqrt(2), GAMMA=None , LIM=10):
@@ -41,7 +45,7 @@ def plot(x_1_labeled, x_2_labeled, x_unlabeled, W_OPT= np.ones(2)/np.sqrt(2), GA
 
 def expectation_maximization_kmeans_init(x_unlabeled):
 #     print(x_unlabeled[0], x_unlabeled.shape)
-    gm = GaussianMixture(n_components=2, random_state=0, covariance_type='spherical').fit(x_unlabeled)
+    gm = GaussianMixture(n_components=2, random_state=0, covariance_type='diag').fit(x_unlabeled)
     return gm.means_
 
 def expectation_maximization_supervised_init(x_unlabeled,x_1_labeled, x_2_labeled ):
@@ -58,17 +62,24 @@ def get_sup_estimator(x_labelled, y, x_val, y_val):
     all_ys = np.concatenate((y, y_val))
     val_idxs = np.concatenate((-np.ones(x_labelled.shape[0]), np.zeros(x_val.shape[0])))
     ps = PredefinedSplit(test_fold=val_idxs)
-    clf = LogisticRegression(random_state=0)
+    clf = LogisticRegression(random_state=0, solver=GLOBAL_SOLVER,
+                             max_iter=GLOBAL_MAX_ITER)
     C_values = [1., 0.1, 0.01, 0.001]
     grid_search = GridSearchCV(
             clf,
+            refit=False,
             param_grid={"C": C_values},
             cv=ps).fit(all_xs, all_ys)
-    return grid_search.best_estimator_
+    best_clf = LogisticRegression(random_state=0, solver=GLOBAL_SOLVER,
+                                  max_iter=GLOBAL_MAX_ITER,
+                                  C=grid_search.best_params_["C"]).fit(x_labelled, y)
+
+    return best_clf
 
 def get_unsup_estimator(x_unlabelled, x_val, y_val):
     em_means = expectation_maximization_kmeans_init(x_unlabelled)
-    clf_em = LogisticRegression(random_state=0)
+    clf_em = LogisticRegression(random_state=0, solver=GLOBAL_SOLVER,
+                             max_iter=GLOBAL_MAX_ITER)
     clf_em.coef_=(em_means[0] - em_means[1]).reshape(1,-1)
     clf_em.intercept_=0
     clf_em.classes_=np.unique(y_val)
@@ -78,7 +89,8 @@ def get_unsup_estimator(x_unlabelled, x_val, y_val):
 
 def get_unsup_estimator(x_unlabelled, x_val, y_val):
     em_means = expectation_maximization_kmeans_init(x_unlabelled)
-    clf_em = LogisticRegression(random_state=0)
+    clf_em = LogisticRegression(random_state=0, solver=GLOBAL_SOLVER,
+                             max_iter=GLOBAL_MAX_ITER)
     clf_em.coef_=(em_means[0] - em_means[1]).reshape(1,-1)
     clf_em.intercept_=0
     clf_em.classes_=np.unique(y_val)
@@ -136,8 +148,9 @@ def get_openml_data(dataset_name, n_components=20, balance_data=True):
         data_dict = pickle.load(handle)
     x, y = data_dict["x"], data_dict["y"]
     x = x.to_numpy()
-    if "musk" in dataset_name:
+    if "musk" in dataset_name or "Santander" in dataset_name:
         x = x[:, 1:]
+    x = np.array(x, dtype="float")
     y = y.to_numpy(dtype="int")
     scaler = preprocessing.StandardScaler()
     x_subset=x
@@ -174,18 +187,23 @@ def get_self_training_estimator(x_labelled, y, x_unlabelled, x_val, y_val):
 #     clf = LogisticRegression(random_state=0)
 #     self_training_model = SelfTrainingClassifier(clf).fit(all_xs, all_ys)
 #     return self_training_model
+    ssl_xs = np.concatenate((x_labelled, x_unlabelled))
+    ssl_ys = np.concatenate((y, -np.ones(x_unlabelled.shape[0])))
     all_xs = np.concatenate((x_labelled, x_unlabelled, x_val))
     all_ys = np.concatenate((y, -np.ones(x_unlabelled.shape[0]), y_val))
     val_idxs = np.concatenate((-np.ones(x_labelled.shape[0]+x_unlabelled.shape[0]), np.zeros(x_val.shape[0])))
     ps = PredefinedSplit(test_fold=val_idxs)
-    clf = LogisticRegression(random_state=0)
+    clf = LogisticRegression(random_state=0, solver=GLOBAL_SOLVER,
+                             max_iter=GLOBAL_MAX_ITER)
     thresh_values = [0.6, 0.7, 0.8, 0.9]
     selfT_clf = SelfTrainingClassifier(clf)
     grid_search = GridSearchCV(
             selfT_clf,
+            refit=False,
             param_grid={"threshold": thresh_values},
             cv=ps).fit(all_xs, all_ys)
-    return grid_search.best_estimator_
+    best_clf = SelfTrainingClassifier(clf, threshold=grid_search.best_params_["threshold"]).fit(ssl_xs, ssl_ys)
+    return best_clf
 
 def get_labelprop_estimator(x_labelled, y, x_unlabelled, x_val, y_val):
     all_xs = np.concatenate((x_labelled, x_unlabelled, x_val))
@@ -223,3 +241,18 @@ def get_linear_error(dataset_name):
         "musk": 0.0438,
     }[dataset_name]
 
+def get_UL_error(dataset_name):
+    return {
+        "a9a": 0.2161,
+        "vehicleNorm": 0.1770,
+        "jasmine": 0.2469,
+        "madeline": 0.3818,
+        "philippine": 0.3189,
+        "musk": 0.2702,
+    }[dataset_name]
+
+def parse_mnist_name(dataset_name):
+    d, classes = dataset_name.split("_")
+    assert d == "mnist"
+    c1, c2 = [int(c) for c in classes.split("v")]
+    return c1, c2

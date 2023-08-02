@@ -1,0 +1,981 @@
+[SantanderCustomerSatisfaction] train=198000 val=1000 test=1000
+[SantanderCustomerSatisfaction] imbalance ratio 8.949748743718592
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:36<11:30, 36.35s/it] 10%|█         | 2/20 [01:15<11:22, 37.90s/it]Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.3333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 3.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.25
+[SantanderCustomerSatisfaction] imbalance ratio 4.2
+[SantanderCustomerSatisfaction] imbalance ratio 4.4
+[SantanderCustomerSatisfaction] imbalance ratio 3.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 3.8333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 4.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 3.7142857142857144
+[SantanderCustomerSatisfaction] imbalance ratio 3.857142857142857
+[SantanderCustomerSatisfaction] imbalance ratio 3.375
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.625
+[SantanderCustomerSatisfaction] imbalance ratio 3.75
+[SantanderCustomerSatisfaction] imbalance ratio 3.875
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.125
+[SantanderCustomerSatisfaction] imbalance ratio 4.25
+[SantanderCustomerSatisfaction] imbalance ratio 4.375
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.625
+[SantanderCustomerSatisfaction] imbalance ratio 4.75
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 7.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 9.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 10.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 11.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 12.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 13.0
+[SantanderCustomerSatisfaction] imbalance ratio 13.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 13.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 14.0
+[SantanderCustomerSatisfaction] imbalance ratio 14.333333333333334
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 0.5
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 1.5
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.3333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 2.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.3333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 3.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 7.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 9.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.75
+ 15%|█▌        | 3/20 [01:57<11:13, 39.63s/it] 20%|██        | 4/20 [02:33<10:11, 38.24s/it] 25%|██▌       | 5/20 [03:09<09:25, 37.69s/it] 30%|███       | 6/20 [03:46<08:42, 37.34s/it][SantanderCustomerSatisfaction] imbalance ratio 6.2
+[SantanderCustomerSatisfaction] imbalance ratio 6.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.6
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 7.4
+[SantanderCustomerSatisfaction] imbalance ratio 7.6
+[SantanderCustomerSatisfaction] imbalance ratio 7.8
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.2
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 13.0
+[SantanderCustomerSatisfaction] imbalance ratio 14.0
+[SantanderCustomerSatisfaction] imbalance ratio 15.0
+[SantanderCustomerSatisfaction] imbalance ratio 16.0
+[SantanderCustomerSatisfaction] imbalance ratio 17.0
+[SantanderCustomerSatisfaction] imbalance ratio 18.0
+[SantanderCustomerSatisfaction] imbalance ratio 19.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.5
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.5
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.5
+[SantanderCustomerSatisfaction] imbalance ratio 13.0
+[SantanderCustomerSatisfaction] imbalance ratio 13.5
+[SantanderCustomerSatisfaction] imbalance ratio 14.0
+[SantanderCustomerSatisfaction] imbalance ratio 14.5
+[SantanderCustomerSatisfaction] imbalance ratio 15.0
+[SantanderCustomerSatisfaction] imbalance ratio 15.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 10.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.75
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 7.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.5
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.5
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.75
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.25
+[SantanderCustomerSatisfaction] imbalance ratio 5.8
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.2
+[SantanderCustomerSatisfaction] imbalance ratio 6.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.6
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 7.4
+[SantanderCustomerSatisfaction] imbalance ratio 7.6
+[SantanderCustomerSatisfaction] imbalance ratio 7.8
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.2
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.3333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 3.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.75
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.25
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.75
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.2
+[SantanderCustomerSatisfaction] imbalance ratio 4.4
+[SantanderCustomerSatisfaction] imbalance ratio 4.6
+[SantanderCustomerSatisfaction] imbalance ratio 4.8
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.2
+[SantanderCustomerSatisfaction] imbalance ratio 5.4
+[SantanderCustomerSatisfaction] imbalance ratio 5.6
+[SantanderCustomerSatisfaction] imbalance ratio 5.8
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.2
+[SantanderCustomerSatisfaction] imbalance ratio 6.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.6
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.833333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.571428571428571
+Another attempt to get labeled set
+Another attempt to get labeled set
+ 35%|███▌      | 7/20 [04:24<08:09, 37.63s/it] 40%|████      | 8/20 [05:04<07:38, 38.23s/it]Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.5
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.5
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.5
+[SantanderCustomerSatisfaction] imbalance ratio 13.0
+[SantanderCustomerSatisfaction] imbalance ratio 13.5
+[SantanderCustomerSatisfaction] imbalance ratio 14.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 9.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 10.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 0.5
+[SantanderCustomerSatisfaction] imbalance ratio 0.3333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 0.6666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 1.3333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 0.8
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 1.2
+[SantanderCustomerSatisfaction] imbalance ratio 1.4
+[SantanderCustomerSatisfaction] imbalance ratio 1.6
+[SantanderCustomerSatisfaction] imbalance ratio 1.8
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 1.6666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 1.8333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.1666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 2.3333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 2.5
+[SantanderCustomerSatisfaction] imbalance ratio 2.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 2.8333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.1666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 3.3333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 3.8333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 4.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 4.833333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.833333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.285714285714286
+[SantanderCustomerSatisfaction] imbalance ratio 5.428571428571429
+[SantanderCustomerSatisfaction] imbalance ratio 5.571428571428571
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.5
+[SantanderCustomerSatisfaction] imbalance ratio 1.6666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 1.5
+[SantanderCustomerSatisfaction] imbalance ratio 1.2
+[SantanderCustomerSatisfaction] imbalance ratio 1.4
+[SantanderCustomerSatisfaction] imbalance ratio 1.6
+[SantanderCustomerSatisfaction] imbalance ratio 1.8
+[SantanderCustomerSatisfaction] imbalance ratio 1.5
+[SantanderCustomerSatisfaction] imbalance ratio 1.6666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 1.8333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.1666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 2.3333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 2.5
+[SantanderCustomerSatisfaction] imbalance ratio 2.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 2.8333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.5714285714285716
+[SantanderCustomerSatisfaction] imbalance ratio 2.7142857142857144
+[SantanderCustomerSatisfaction] imbalance ratio 2.857142857142857
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.142857142857143
+[SantanderCustomerSatisfaction] imbalance ratio 3.2857142857142856
+[SantanderCustomerSatisfaction] imbalance ratio 3.4285714285714284
+[SantanderCustomerSatisfaction] imbalance ratio 3.5714285714285716
+[SantanderCustomerSatisfaction] imbalance ratio 3.125
+[SantanderCustomerSatisfaction] imbalance ratio 3.25
+[SantanderCustomerSatisfaction] imbalance ratio 3.375
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.625
+[SantanderCustomerSatisfaction] imbalance ratio 3.75
+[SantanderCustomerSatisfaction] imbalance ratio 3.875
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.125
+[SantanderCustomerSatisfaction] imbalance ratio 4.25
+[SantanderCustomerSatisfaction] imbalance ratio 4.375
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.625
+ 45%|████▌     | 9/20 [05:41<06:56, 37.82s/it] 50%|█████     | 10/20 [06:16<06:10, 37.06s/it] 55%|█████▌    | 11/20 [06:53<05:32, 36.93s/it] 60%|██████    | 12/20 [07:27<04:50, 36.25s/it][SantanderCustomerSatisfaction] imbalance ratio 4.111111111111111
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.5
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.5
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 9.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.75
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.25
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.75
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.25
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.75
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.25
+[SantanderCustomerSatisfaction] imbalance ratio 10.5
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.2
+[SantanderCustomerSatisfaction] imbalance ratio 3.4
+[SantanderCustomerSatisfaction] imbalance ratio 3.6
+[SantanderCustomerSatisfaction] imbalance ratio 3.8
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.2
+[SantanderCustomerSatisfaction] imbalance ratio 4.4
+[SantanderCustomerSatisfaction] imbalance ratio 4.6
+[SantanderCustomerSatisfaction] imbalance ratio 4.8
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.2
+[SantanderCustomerSatisfaction] imbalance ratio 5.4
+[SantanderCustomerSatisfaction] imbalance ratio 5.6
+[SantanderCustomerSatisfaction] imbalance ratio 5.8
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.2
+[SantanderCustomerSatisfaction] imbalance ratio 6.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.6
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 7.4
+[SantanderCustomerSatisfaction] imbalance ratio 7.6
+[SantanderCustomerSatisfaction] imbalance ratio 7.8
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.2
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 7.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 9.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 10.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 11.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.25
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.75
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.25
+[SantanderCustomerSatisfaction] imbalance ratio 10.5
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+ 65%|██████▌   | 13/20 [08:01<04:09, 35.58s/it] 70%|███████   | 14/20 [08:35<03:29, 34.85s/it] 75%|███████▌  | 15/20 [09:09<02:52, 34.58s/it][SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.25
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.75
+[SantanderCustomerSatisfaction] imbalance ratio 4.6
+[SantanderCustomerSatisfaction] imbalance ratio 4.8
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.2
+[SantanderCustomerSatisfaction] imbalance ratio 5.4
+[SantanderCustomerSatisfaction] imbalance ratio 5.6
+[SantanderCustomerSatisfaction] imbalance ratio 5.8
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.2
+[SantanderCustomerSatisfaction] imbalance ratio 5.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.833333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.5
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.5
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.5
+[SantanderCustomerSatisfaction] imbalance ratio 13.0
+[SantanderCustomerSatisfaction] imbalance ratio 13.5
+[SantanderCustomerSatisfaction] imbalance ratio 14.0
+[SantanderCustomerSatisfaction] imbalance ratio 14.5
+[SantanderCustomerSatisfaction] imbalance ratio 15.0
+[SantanderCustomerSatisfaction] imbalance ratio 15.5
+[SantanderCustomerSatisfaction] imbalance ratio 16.0
+[SantanderCustomerSatisfaction] imbalance ratio 16.5
+[SantanderCustomerSatisfaction] imbalance ratio 17.0
+[SantanderCustomerSatisfaction] imbalance ratio 17.5
+[SantanderCustomerSatisfaction] imbalance ratio 18.0
+[SantanderCustomerSatisfaction] imbalance ratio 18.5
+[SantanderCustomerSatisfaction] imbalance ratio 19.0
+[SantanderCustomerSatisfaction] imbalance ratio 19.5
+[SantanderCustomerSatisfaction] imbalance ratio 20.0
+[SantanderCustomerSatisfaction] imbalance ratio 20.5
+[SantanderCustomerSatisfaction] imbalance ratio 21.0
+[SantanderCustomerSatisfaction] imbalance ratio 21.5
+[SantanderCustomerSatisfaction] imbalance ratio 22.0
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 1.5
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 7.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 9.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.75
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.25
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 7.4
+[SantanderCustomerSatisfaction] imbalance ratio 7.6
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.571428571428571
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 0.5
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 1.5
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.5
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.75
+ 80%|████████  | 16/20 [09:44<02:19, 34.88s/it] 85%|████████▌ | 17/20 [10:17<01:42, 34.18s/it] 90%|█████████ | 18/20 [10:53<01:09, 34.88s/it][SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.25
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.75
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.25
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.75
+[SantanderCustomerSatisfaction] imbalance ratio 5.4
+[SantanderCustomerSatisfaction] imbalance ratio 5.6
+[SantanderCustomerSatisfaction] imbalance ratio 5.8
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.2
+[SantanderCustomerSatisfaction] imbalance ratio 6.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.6
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 7.4
+[SantanderCustomerSatisfaction] imbalance ratio 7.6
+[SantanderCustomerSatisfaction] imbalance ratio 7.8
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.2
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.3333333333333335
+[SantanderCustomerSatisfaction] imbalance ratio 3.6666666666666665
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 7.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.25
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.75
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.25
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.75
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.25
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.75
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.25
+[SantanderCustomerSatisfaction] imbalance ratio 8.2
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.25
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 4.75
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.2
+[SantanderCustomerSatisfaction] imbalance ratio 4.4
+[SantanderCustomerSatisfaction] imbalance ratio 4.6
+[SantanderCustomerSatisfaction] imbalance ratio 4.8
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.2
+[SantanderCustomerSatisfaction] imbalance ratio 5.4
+[SantanderCustomerSatisfaction] imbalance ratio 5.6
+[SantanderCustomerSatisfaction] imbalance ratio 5.8
+[SantanderCustomerSatisfaction] imbalance ratio 4.833333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.285714285714286
+[SantanderCustomerSatisfaction] imbalance ratio 4.428571428571429
+[SantanderCustomerSatisfaction] imbalance ratio 4.571428571428571
+[SantanderCustomerSatisfaction] imbalance ratio 4.714285714285714
+[SantanderCustomerSatisfaction] imbalance ratio 4.857142857142857
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.142857142857143
+[SantanderCustomerSatisfaction] imbalance ratio 5.285714285714286
+[SantanderCustomerSatisfaction] imbalance ratio 4.625
+[SantanderCustomerSatisfaction] imbalance ratio 4.75
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+Another attempt to get labeled set
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.25
+[SantanderCustomerSatisfaction] imbalance ratio 5.5
+[SantanderCustomerSatisfaction] imbalance ratio 5.75
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.25
+ 95%|█████████▌| 19/20 [11:30<00:35, 35.59s/it]100%|██████████| 20/20 [12:09<00:00, 36.47s/it]100%|██████████| 20/20 [12:09<00:00, 36.47s/it]
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.75
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.25
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 7.75
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.6
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 7.4
+[SantanderCustomerSatisfaction] imbalance ratio 7.6
+[SantanderCustomerSatisfaction] imbalance ratio 7.8
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 1.0
+[SantanderCustomerSatisfaction] imbalance ratio 2.0
+[SantanderCustomerSatisfaction] imbalance ratio 3.0
+[SantanderCustomerSatisfaction] imbalance ratio 4.0
+[SantanderCustomerSatisfaction] imbalance ratio 5.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 13.0
+[SantanderCustomerSatisfaction] imbalance ratio 14.0
+[SantanderCustomerSatisfaction] imbalance ratio 15.0
+[SantanderCustomerSatisfaction] imbalance ratio 16.0
+[SantanderCustomerSatisfaction] imbalance ratio 17.0
+[SantanderCustomerSatisfaction] imbalance ratio 8.5
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.5
+[SantanderCustomerSatisfaction] imbalance ratio 10.0
+[SantanderCustomerSatisfaction] imbalance ratio 10.5
+[SantanderCustomerSatisfaction] imbalance ratio 11.0
+[SantanderCustomerSatisfaction] imbalance ratio 11.5
+[SantanderCustomerSatisfaction] imbalance ratio 12.0
+[SantanderCustomerSatisfaction] imbalance ratio 12.5
+[SantanderCustomerSatisfaction] imbalance ratio 8.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 8.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 9.0
+[SantanderCustomerSatisfaction] imbalance ratio 9.333333333333334
+[SantanderCustomerSatisfaction] imbalance ratio 9.666666666666666
+[SantanderCustomerSatisfaction] imbalance ratio 7.25
+[SantanderCustomerSatisfaction] imbalance ratio 7.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.0
+[SantanderCustomerSatisfaction] imbalance ratio 6.2
+[SantanderCustomerSatisfaction] imbalance ratio 6.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.6
+[SantanderCustomerSatisfaction] imbalance ratio 6.8
+[SantanderCustomerSatisfaction] imbalance ratio 7.0
+[SantanderCustomerSatisfaction] imbalance ratio 7.2
+[SantanderCustomerSatisfaction] imbalance ratio 7.4
+[SantanderCustomerSatisfaction] imbalance ratio 6.166666666666667
+[SantanderCustomerSatisfaction] imbalance ratio 6.333333333333333
+[SantanderCustomerSatisfaction] imbalance ratio 6.5
+[SantanderCustomerSatisfaction] imbalance ratio 6.666666666666667
+SL: 0.9080999999999999; UL: 0.50275; SSL: 0.8946; SelfT: 0.908

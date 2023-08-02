@@ -1,0 +1,8 @@
+num_repetitions,20
+data,a9a
+n_pca_components,20
+n_all_train,46842
+n_labelled_values,[20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95]
+n_unlabelled,4000
+n_test_set,1000
+n_val_set,1000

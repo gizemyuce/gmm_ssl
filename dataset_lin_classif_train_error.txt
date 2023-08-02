@@ -1,0 +1,6 @@
+a9a 0.1789
+vehicleNorm 0.1415
+jasmine 0.1867
+madeline 0.3405
+philippine 0.2445
+musk 0.0438

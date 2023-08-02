@@ -1,0 +1,8 @@
+num_repetitions,20
+data,philippine
+n_pca_components,20
+n_all_train,3832
+n_labelled_values,[ 50 100 150 200 250 300 350 400 450]
+n_unlabelled,2000
+n_test_set,1000
+n_val_set,1000

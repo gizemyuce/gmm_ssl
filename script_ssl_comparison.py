@@ -29,10 +29,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     num_repetitions = 20
-    n_pca_components = 20
+#     n_pca_components = 20
+    n_pca_components = None
     n_unlabelled = 4000
     n_test_set = 1000
     n_val_set = 1000
+    unl_to_lab_ratio = 20
     n_labelled_arr=np.arange(2,20)
     # dataset_name = "mnist_5_vs_9"
     dataset_name = args.dataset_name
@@ -48,9 +50,12 @@ if __name__ == "__main__":
 #         n_labelled_arr=np.arange(2,20)
 #         n_unlabelled = 4000
 
+    if "mnist" in dataset_name:
+        n_pca_components = 20
 
     if "mnist" in dataset_name:
-        x_trans, y_subset = get_mnist_classes(n_components=n_pca_components)
+        c1, c2 = parse_mnist_name(dataset_name)
+        x_trans, y_subset = get_mnist_classes(class1=c1, class2=c2, n_components=n_pca_components)
     else:
         x_trans, y_subset = get_openml_data(dataset_name=dataset_name,
                                             n_components=n_pca_components,
@@ -94,11 +99,18 @@ if __name__ == "__main__":
                 break
             print("Another attempt to get labeled set")
 
-#         n_labelled_arr=np.arange(10, 500, 10)
-        n_labelled_arr=np.arange(10, 50, 10)
+        if unl_to_lab_ratio == 20:
+            n_labelled_arr=np.arange(2, 47, 1)
+        elif unl_to_lab_ratio == 5:
+            n_labelled_arr=np.arange(10, 181, 10)
+        elif unl_to_lab_ratio == 10:
+            n_labelled_arr=np.arange(4, 93, 5)
+#         if dataset_name == "musk":
+#             n_labelled_arr=np.arange(2, 200, 10)
+
         for n_labelled in n_labelled_arr:
             for n_unlabelled in n_unlabelled_arr:
-                n_unlabelled = n_labelled * 100
+                n_unlabelled = n_labelled * unl_to_lab_ratio
                 x_labelled = x_train[:n_labelled]
                 y_sl = y_train[:n_labelled]
                 print(f"[{dataset_name}] imbalance ratio {y_sl[y_sl == 0].shape[0] / y_sl[y_sl == 1].shape[0]}")
@@ -133,7 +145,11 @@ if __name__ == "__main__":
                 st_diff_arr.append(ssl_score-st_score)
     #             lp_diff_arr.append(ssl_score-lp_score)
 
-    # print(df)
+
+    avg_sl_acc = np.array(sl_arr).reshape((num_repetitions, -1)).mean(axis=0)
+    avg_ssl_acc = np.array(ssl_arr).reshape((num_repetitions, -1)).mean(axis=0)
+    avg_ul_acc = np.array(ul_arr).reshape((num_repetitions, -1)).mean(axis=0)
+    avg_st_acc = np.array(st_arr).reshape((num_repetitions, -1)).mean(axis=0)
     test_dict={
             'n_labelled':n_labelled_arrs,
             'n_unlabelled':n_unlabelled_arrs,
@@ -145,7 +161,15 @@ if __name__ == "__main__":
              'ul_diff_acc':ul_diff_arr,
              'st_diff_acc':st_diff_arr,
              }
-    print(f"SL: {sl_arr[-1]}; UL: {ul_arr[-1]}; SSL: {ssl_arr[-1]}; SelfT: {st_arr[-1]}")
+    agg_metrics = {
+         'avg_sl_acc': avg_sl_acc,
+         'avg_ssl_acc': avg_ssl_acc,
+         'avg_ul_acc':avg_ul_acc,
+         'avg_st_acc':avg_st_acc,
+#          'ul_vs_bayes': avg_ul_acc[-1] / (1 - get_linear_error(dataset_name)),
+#          'sl_vs_bayes': avg_sl_acc[-1] / (1 - get_linear_error(dataset_name)),
+    }
+    print(f"SL: {avg_sl_acc[-1]}; UL: {avg_ul_acc[-1]}; SSL: {avg_ssl_acc[-1]}; SelfT: {avg_st_acc[-1]}")
     df=pd.DataFrame.from_dict(test_dict)
     sns.set()
     fig,ax=plt.subplots(figsize=(8,6))
@@ -160,7 +184,7 @@ if __name__ == "__main__":
     # plt.yscale('log')
 
     suffix = int(time.time())
-    filename = f"{dataset_name}_{n_pca_components}D_{suffix}"
+    filename = f"{dataset_name}_{n_pca_components}D_UvL{unl_to_lab_ratio}_{suffix}"
     plt.savefig(f'/Users/alexandrutifrea/Projects/SSL_lower_bound/gmm_ssl/figures/{filename}.png')
     params = {
         "num_repetitions": num_repetitions,
@@ -171,6 +195,8 @@ if __name__ == "__main__":
         "n_unlabelled_values": n_unlabelled_arrs,
         "n_test_set": n_test_set,
         "n_val_set": n_val_set,
+        "unl_to_lab_ratio": unl_to_lab_ratio,
+#         "ULbayes_vs_SLbayes": get_UL_error(dataset_name) / get_linear_error(dataset_name)
     }
 
     with open(f"figures/{filename}.csv", "w") as f:
@@ -178,5 +204,7 @@ if __name__ == "__main__":
         for k, v, in params.items():
             writer.writerow([k, v])
         for k, v, in test_dict.items():
+            writer.writerow([k, v])
+        for k, v, in agg_metrics.items():
             writer.writerow([k, v])
     #     print(params, file=f)

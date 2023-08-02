@@ -1,0 +1,7 @@
+[webdata_wXa] train=34974 val=1000 test=1000
+[webdata_wXa] imbalance ratio 0.31699051061906913
+  0%|          | 0/20 [00:00<?, ?it/s]  0%|          | 0/20 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/alexandrutifrea/Projects/SSL_lower_bound/gmm_ssl/script_ssl_comparison.py", line 91, in <module>
+    print(f"[{dataset_name}] imbalance ratio {y_sl[y_sl == 0].shape[0] / y_sl[y_sl == 1].shape[0]}")
+ZeroDivisionError: division by zero
