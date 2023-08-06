@@ -76,16 +76,6 @@ def get_sup_estimator(x_labelled, y, x_val, y_val):
 
     return best_clf
 
-def get_unsup_estimator(x_unlabelled, x_val, y_val):
-    em_means = expectation_maximization_kmeans_init(x_unlabelled)
-    clf_em = LogisticRegression(random_state=0, solver=GLOBAL_SOLVER,
-                             max_iter=GLOBAL_MAX_ITER)
-    clf_em.coef_=(em_means[0] - em_means[1]).reshape(1,-1)
-    clf_em.intercept_=0
-    clf_em.classes_=np.unique(y_val)
-    if clf_em.score(x_val, y_val) <0.5:
-        clf_em.coef_*=-1
-    return clf_em
 
 def get_unsup_estimator(x_unlabelled, x_val, y_val):
     em_means = expectation_maximization_kmeans_init(x_unlabelled)
@@ -109,13 +99,19 @@ def get_ssl_estimator(clf_sl, clf_em, lambda_):
     clf_ssl.classes_=clf_sl.classes_
     return clf_ssl
 
-def get_best_lambda(clf_sl, clf_em, x_val, y_val):
+def get_best_lambda(clf_sl, clf_em, x_val, y_val=None):
     score_arr=[]
     best_lambda=0
     best_score=0
     for lambda_ in np.linspace(0,1,1000):
         clf_ssl=get_ssl_estimator(clf_sl, clf_em, lambda_)
-        score_curr = clf_ssl.score(x_val, y_val)
+        if y_val is not None:
+            # Use supervised validation data for selecting best lambda.
+            score_curr = clf_ssl.score(x_val, y_val)
+        else:
+            # Use unsupervised validation data for selecting best lambda.
+            score_curr = (clf_ssl.intercept_ + x_val @ clf_ssl.coef_.reshape(-1, 1)) / np.linalg.norm(clf_ssl.coef_)
+            score_curr = -score_curr.mean()
         if score_curr > best_score:
             best_lambda=lambda_
             best_score = score_curr

@@ -65,9 +65,12 @@ if __name__ == "__main__":
     x_test=x_trans[n_labelled_arr[-1]+n_unlabelled_arr[-1]:]
     y_test=y_subset[n_labelled_arr[-1]+n_unlabelled_arr[-1]:]
 
+    ssl_arr_unl_val=[]
+    ssl_val_arr=[]
     ssl_arr=[]
+    best_lambda_arr_unl_val=[]
+    best_lambda_arr=[]
     theory_arr=[]
-    lambda_arr=[]
 
     sl_arr=[]
     st_arr=[]
@@ -132,8 +135,19 @@ if __name__ == "__main__":
                 ul_score=clf_em.score(x_test, y_test)
 
                 best_lambda, ssl_score = get_best_lambda(clf_sl, clf_em, x_val, y_val)
+                ssl_val_arr.append(ssl_score)
+                clf_ssl = get_ssl_estimator(clf_sl, clf_em, best_lambda)
+                ssl_score=clf_ssl.score(x_test, y_test)
                 ssl_arr.append(ssl_score)
-                lambda_arr.append(best_lambda)
+                best_lambda_arr.append(best_lambda)
+
+                # SSL with lambda selected using unlabaled validation data.
+                best_lambda, ssl_score = get_best_lambda(clf_sl, clf_em, x_train)
+                clf_ssl = get_ssl_estimator(clf_sl, clf_em, best_lambda)
+                ssl_score=clf_ssl.score(x_test, y_test)
+                ssl_arr_unl_val.append(ssl_score)
+                best_lambda_arr_unl_val.append(best_lambda)
+
                 n_labelled_arrs.append(n_labelled)
                 n_unlabelled_arrs.append(n_unlabelled)
                 st_arr.append(st_score)
@@ -147,7 +161,9 @@ if __name__ == "__main__":
 
 
     avg_sl_acc = np.array(sl_arr).reshape((num_repetitions, -1)).mean(axis=0)
+    avg_ssl_val_acc = np.array(ssl_val_arr).reshape((num_repetitions, -1)).mean(axis=0)
     avg_ssl_acc = np.array(ssl_arr).reshape((num_repetitions, -1)).mean(axis=0)
+    avg_ssl_acc_unl_val = np.array(ssl_arr_unl_val).reshape((num_repetitions, -1)).mean(axis=0)
     avg_ul_acc = np.array(ul_arr).reshape((num_repetitions, -1)).mean(axis=0)
     avg_st_acc = np.array(st_arr).reshape((num_repetitions, -1)).mean(axis=0)
     test_dict={
@@ -155,6 +171,10 @@ if __name__ == "__main__":
             'n_unlabelled':n_unlabelled_arrs,
              'sl_acc':sl_arr,
              'ssl_acc':ssl_arr,
+             'ssl_val_acc':ssl_val_arr,
+             'ssl_acc_unl_val':ssl_arr_unl_val,
+             'best_lambda':best_lambda_arr,
+             'best_lambda_unl_val':best_lambda_arr_unl_val,
              'ul_acc':ul_arr,
              'st_acc':st_arr,
              'sl_diff_acc':sl_diff_arr,
@@ -164,6 +184,8 @@ if __name__ == "__main__":
     agg_metrics = {
          'avg_sl_acc': avg_sl_acc,
          'avg_ssl_acc': avg_ssl_acc,
+         'avg_ssl_val_acc': avg_ssl_val_acc,
+         'avg_ssl_acc_unl_val': avg_ssl_acc_unl_val,
          'avg_ul_acc':avg_ul_acc,
          'avg_st_acc':avg_st_acc,
 #          'ul_vs_bayes': avg_ul_acc[-1] / (1 - get_linear_error(dataset_name)),
@@ -185,7 +207,7 @@ if __name__ == "__main__":
 
     suffix = int(time.time())
     filename = f"{dataset_name}_{n_pca_components}D_UvL{unl_to_lab_ratio}_{suffix}"
-    plt.savefig(f'/Users/alexandrutifrea/Projects/SSL_lower_bound/gmm_ssl/figures/{filename}.png')
+    plt.savefig(f'/Users/alexandrutifrea/Projects/SSL_lower_bound/gmm_ssl/figures_unsup_val/{filename}.png')
     params = {
         "num_repetitions": num_repetitions,
         "data": dataset_name,
@@ -199,7 +221,7 @@ if __name__ == "__main__":
 #         "ULbayes_vs_SLbayes": get_UL_error(dataset_name) / get_linear_error(dataset_name)
     }
 
-    with open(f"figures/{filename}.csv", "w") as f:
+    with open(f"figures_unsup_val/{filename}.csv", "w") as f:
         writer = csv.writer(f)
         for k, v, in params.items():
             writer.writerow([k, v])
