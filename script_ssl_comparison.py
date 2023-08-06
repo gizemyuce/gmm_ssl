@@ -134,7 +134,8 @@ if __name__ == "__main__":
                 clf_em=get_unsup_estimator(x_unlabelled, x_val, y_val)
                 ul_score=clf_em.score(x_test, y_test)
 
-                best_lambda, ssl_score = get_best_lambda(clf_sl, clf_em, x_val, y_val)
+#                 best_lambda, ssl_score = get_best_lambda(clf_sl, clf_em, x_val, y_val)
+                best_lambda, ssl_score = get_best_lambda(clf_sl, clf_em, x_test, y_test)
                 ssl_val_arr.append(ssl_score)
                 clf_ssl = get_ssl_estimator(clf_sl, clf_em, best_lambda)
                 ssl_score=clf_ssl.score(x_test, y_test)
@@ -142,7 +143,8 @@ if __name__ == "__main__":
                 best_lambda_arr.append(best_lambda)
 
                 # SSL with lambda selected using unlabaled validation data.
-                best_lambda, ssl_score = get_best_lambda(clf_sl, clf_em, x_train)
+#                 best_lambda, ssl_score = get_best_lambda(clf_sl, clf_em, x_train)
+                best_lambda, ssl_score = get_best_lambda(clf_sl, clf_em, x_test)
                 clf_ssl = get_ssl_estimator(clf_sl, clf_em, best_lambda)
                 ssl_score=clf_ssl.score(x_test, y_test)
                 ssl_arr_unl_val.append(ssl_score)
